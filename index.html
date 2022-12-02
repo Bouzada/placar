@@ -13,10 +13,12 @@
   <div class="scoreboard">
     <h1 class="set-title">Set</h1>
     <div class="counter-set">
-      <button class="button-set">+</button><span>0</span>
+      <button class="button-set" name="adicionar" onclick="increment3()">+</button><span id="currentNumber3">0</span>
       <div class="">X</div>
-      <span>0</span><button class="button-set">+</button>
+      <span id="currentNumber4">0</span><button class="button-set" name="adicionar" onclick="increment4()">+</button>
     </div>
+
+    <button class="zero" onclick="zerar()">Zerar placar</button>
 
     <div class="score">
       <div class="counter">

@@ -26,9 +26,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   border: 1px solid $dark-blue;
   border-radius: 1rem;
+
+  .zero {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+  }
 
   .counter-set {
     display: flex;
